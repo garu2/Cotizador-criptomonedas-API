@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: darkblue;*/
+} 
+
+.main-section {
+    text-align: center;
+    margin: 9% auto 0;
+    width: 60%;
+    padding: 29px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.main-section h2 {
+    text-transform: uppercase;
+    color: #736c6c;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.form-side {
+    width: 50%;
+    margin-top: 2%;
+}
+.form-side form#form-search {
+    display: flex;
+    flex-direction: column;
+}
+.image-side {
+    background-image: url(./images/cripotoImage.png);
+    height: 400px;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.form-side #form-search select {
+    font-size: inherit;
+    margin: 8px 0px 7px;
+    background-color: aliceblue;
+    padding: 8px 5px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 7px;
+    border: solid 1px #ada2a2;
+    color: #736d6d;
+}
+input[type="submit"] {
+    margin: 9px auto 0px;
+    width: 50%;
+    color: cadetblue;
+    background-color: #00a478;
+    border: solid 0px #ada2a2;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 7px 3px;
+    color: #FFF;
+    height: 37px;
+    font-family: 'Montserrat', sans-serif;
+}
+input[type="submit"]:hover {
+    color: #00a478;
+    background-color: #fff;
+    border: solid 2px #00a478;
+}
+.error {
+    color: red;
+}
+.display-info p span{
+    font-weight: 700;
+}
+.display-info .main-price{
+    font-size: 28px;
+    margin-bottom: 2px;
+}
